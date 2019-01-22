@@ -16,9 +16,26 @@ A demo consiste no desenvolvimento de uma aplicação MEAN com integração com 
 * MongoDb Compass GUI - **[DOWNLOAD AQUI](https://www.mongodb.com/download-center/compass)**
 * Angular CLI 7 - **[DOWNLOAD AQUI](https://angular.io/)**
 * Typescript v.3.x - **[DOWNLOAD AQUI](https://www.typescriptlang.org/)**
+* Bootstrap 4 - [DOWNLOAD](https://getbootstrap.com/docs/4.0/getting-started/introduction/)
 * Azure App Services - **[Cadastro no site Azure](https://azure.microsoft.com/pt-br/)**
 
 ## Executando a Aplicação Localmente:
+
+1) Instalar os pacotes com o comando:
+
+```
+> npm install
+```
+
+2) Execução Front-End:
+
+Abrir a pasta **front-end** e executar o seguinte comando:
+
+```
+> ng serve -o
+```
+
+Abrirá a página **http://localhost:4200/**, conforme a imagem abaixo
 
 Em desenvolvimento....
 
