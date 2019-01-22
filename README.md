@@ -13,6 +13,7 @@ A demo consiste no desenvolvimento de uma aplicação MEAN com integração com 
 * VS Code - [DOWNLOAD AQUI](https://code.visualstudio.com/)
 * Node.js - [DOWNLOAD AQUI](https://nodejs.org/en/)
 * MongoDb Community Server - [DOWNLOAD AQUI](https://www.mongodb.com/download-center/community)
+* MongoDb Compass GUI - [DOWNLOAD AQUI](https://www.mongodb.com/download-center/compass)
 * Azure App Service - [Cadastro no site Azure](https://azure.microsoft.com/pt-br/) 
 
 ## Executando a Aplicação Localmente:
