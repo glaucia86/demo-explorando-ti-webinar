@@ -10,15 +10,17 @@ A demo consiste no desenvolvimento de uma aplicação MEAN com integração com 
 
 ## Recursos Utilizados no Desenvolvimento da Aplicação: :rocket:
 
-* VS Code - [DOWNLOAD AQUI](https://code.visualstudio.com/)
-* Node.js - [DOWNLOAD AQUI](https://nodejs.org/en/)
-* MongoDb Community Server - [DOWNLOAD AQUI](https://www.mongodb.com/download-center/community)
-* MongoDb Compass GUI - [DOWNLOAD AQUI](https://www.mongodb.com/download-center/compass)
-* Angular - [DOWNLOAD AQUI](https://angularjs.org/)
-* Azure App Services - [Cadastro no site Azure](https://azure.microsoft.com/pt-br/) 
+* VS Code - **[DOWNLOAD AQUI](https://code.visualstudio.com/)**
+* Node.js - **[DOWNLOAD AQUI](https://nodejs.org/en/)**
+* MongoDb Community Server - **[DOWNLOAD AQUI](https://www.mongodb.com/download-center/community)**
+* MongoDb Compass GUI - **[DOWNLOAD AQUI](https://www.mongodb.com/download-center/compass)**
+* Angular CLI 7 - **[DOWNLOAD AQUI](https://angular.io/)**
+* Typescript v.3.x - **[DOWNLOAD AQUI](https://www.typescriptlang.org/)**
+* Azure App Services - **[Cadastro no site Azure](https://azure.microsoft.com/pt-br/)**
 
 ## Executando a Aplicação Localmente:
 
+Em desenvolvimento....
 
 ## Dúvidas?! :triangular_flag_on_post:
 
