@@ -14,9 +14,6 @@ A demo consiste no desenvolvimento de uma aplicação MEAN com integração com 
 * Node.js - **[DOWNLOAD AQUI](https://nodejs.org/en/)**
 * MongoDb Community Server - **[DOWNLOAD AQUI](https://www.mongodb.com/download-center/community)**
 * MongoDb Compass GUI - **[DOWNLOAD AQUI](https://www.mongodb.com/download-center/compass)**
-* Angular CLI 7 - **[DOWNLOAD AQUI](https://angular.io/)**
-* Typescript v.3.x - **[DOWNLOAD AQUI](https://www.typescriptlang.org/)**
-* Bootstrap 4 - [DOWNLOAD](https://getbootstrap.com/docs/4.0/getting-started/introduction/)
 * Azure App Services - **[Cadastro no site Azure](https://azure.microsoft.com/pt-br/)**
 
 ## Executando a Aplicação Localmente:
@@ -27,17 +24,9 @@ A demo consiste no desenvolvimento de uma aplicação MEAN com integração com 
 > npm install
 ```
 
-2) Execução Front-End:
-
-Abrir a pasta **front-end** e executar o seguinte comando:
-
 ```
-> ng serve -o
+> npm start
 ```
-
-Abrirá a página **http://localhost:4200/**, conforme a imagem abaixo
-
-Em desenvolvimento....
 
 ## Dúvidas?! :triangular_flag_on_post:
 
