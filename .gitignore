@@ -3,7 +3,6 @@ build/
 node_modules/
 npm-debug.log
 .npm/
-package-lock.json
 
 # OSX system files, the bane of our existence
 .DS_Store

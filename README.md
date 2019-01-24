@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/glaucia86/demo-explorando-ti-webinar.svg?branch=master)](https://travis-ci.org/glaucia86/demo-explorando-ti-webinar)
+![Build](https://img.shields.io/travis/glaucia86/demo-explorando-ti-webinar/master.svg)
 ![Dependencies](https://img.shields.io/david/glaucia86/demo-explorando-ti-webinar.svg)
 ![Dev Dependencies](https://img.shields.io/david/dev/glaucia86/demo-explorando-ti-webinar.svg)
 [![HitCount](http://hits.dwyl.io/glaucia86/demo-explorando-ti-webinar.svg)](http://hits.dwyl.io/glaucia86/demo-explorando-ti-webinar)
