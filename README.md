@@ -37,7 +37,7 @@ A demo consiste no desenvolvimento de uma aplicação MEAN (TODO-LIST) com integ
 ```
 
 ```
-> npm start
+> npm run dev
 ```
 
 ## Dúvidas?! :triangular_flag_on_post:
