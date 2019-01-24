@@ -24,5 +24,8 @@ app.use(bodyParser.json());
 app.use(bodyParser.json({ type: 'application/vnd.api+json' }));
 app.use(methodOverride('X-HTTP-Method-Override'));
 
+// Retornando as rotas:
+require('./api/routes/routes.js')(app);
+
 app.listen(port);
 console.log('Aplicação executando na porta ', port);

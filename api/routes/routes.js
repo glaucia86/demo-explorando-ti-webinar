@@ -18,12 +18,12 @@ function getTodos(res) {
 }
 
 module.exports = function (app) {
-  // Retornará todos os TODOs:
+  // Retornará todos os 'Todos' (GET) localhost:8000/api/todos:
   app.get('/api/todos', (req, res) => {
     getTodos(res);
   });
 
-  // Criará 'Todo' e retornará os 'todos' depois de criados:
+  // Criação de um novo 'Todo': (POST) localhost:8000/api/todos
   app.post('/api/todos', (req, res) => {
     // Criará um novo 'Todo' e retornar os 'Todos' criados:
     Todo.create({
@@ -37,7 +37,7 @@ module.exports = function (app) {
     });
   });
 
-  // Exclusão de um 'Todo':
+  // Exclusão de um 'Todo': (DELETE) localhost:8000/api/todos/:id
   app.delete('/api/todos/:id', (req, res) => {
     Todo.remove({
       _id: req.params.id,
