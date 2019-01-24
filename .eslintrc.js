@@ -19,6 +19,7 @@ module.exports = {
       "import/no-dynamic-require": "off",
       "prefer-destructuring": "off",
       "no-alert": "off",
+      "func-names": "off",
       "import/no-extraneous-dependencies": [
         "error",
         {
