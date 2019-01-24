@@ -20,7 +20,7 @@ angular.module('todoController', [])
 
     // Adicionar 'Todo':
     $scope.createTodo = function () {
-      if ($scope.formData.texto !== undefined) {
+      if ($scope.formData.text !== undefined) {
         $scope.loading = true;
 
         Todos.create($scope.formData)
