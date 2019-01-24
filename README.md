@@ -1,6 +1,11 @@
 ![Build](https://img.shields.io/travis/glaucia86/demo-explorando-ti-webinar/master.svg)
-![Dependencies](https://img.shields.io/david/glaucia86/demo-explorando-ti-webinar.svg)
-![Dev Dependencies](https://img.shields.io/david/dev/glaucia86/demo-explorando-ti-webinar.svg)
+![GHTopLanguages](https://img.shields.io/github/languages/top/glaucia86/demo-explorando-ti-webinar.svg?colorB=gree)
+![Vulnerabilities](https://img.shields.io/snyk/vulnerabilities/github/glaucia86/demo-explorando-ti-webinar.svg)
+![RepoSize](https://img.shields.io/github/repo-size/glaucia86/demo-explorando-ti-webinar.svg?colorB=gree)
+![Downloads](https://img.shields.io/github/downloads/glaucia86/demo-explorando-ti-webinar/total.svg)
+![Issues](https://img.shields.io/github/issues/glaucia86/demo-explorando-ti-webinar.svg)
+![PullRequests](https://img.shields.io/github/issues-pr/glaucia86/demo-explorando-ti-webinar.svg)
+![License](https://img.shields.io/github/license/glaucia86/demo-explorando-ti-webinar.svg?colorB=gree)
 [![HitCount](http://hits.dwyl.io/glaucia86/demo-explorando-ti-webinar.svg)](http://hits.dwyl.io/glaucia86/demo-explorando-ti-webinar)
 
 # Demo Webinar Explorando T.I: Desenvolvendo uma Aplicação Node.js com Azure - A Nuvem Que Escala! by Glaucia Lemos
