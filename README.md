@@ -1,3 +1,8 @@
+[![Build Status](https://travis-ci.org/glaucia86/demo-explorando-ti-webinar.svg?branch=master)](https://travis-ci.org/glaucia86/demo-explorando-ti-webinar)
+![Dependecies](https://david-dm.org/glaucia86/demo-explorando-ti-webinar.svg)
+[![HitCount](http://hits.dwyl.io/glaucia86/demo-explorando-ti-webinar.svg)](http://hits.dwyl.io/glaucia86/demo-explorando-ti-webinar)
+![Downloads](https://img.shields.io/npm/dt/demo-explorando-ti-webinar.svg?style=popout-square)
+
 # Demo Webinar Explorando T.I: Desenvolvendo uma Aplicação Node.js com Azure - A Nuvem Que Escala! by Glaucia Lemos
 
 <p align="center">
