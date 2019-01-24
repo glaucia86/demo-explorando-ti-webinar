@@ -15,7 +15,7 @@ const methodOverride = require('method-override'); // esse pacote iremos simular
 const port = process.env.PORT || 8000;
 const database = require('./config/database');
 
-mongoose.connect(database.local.localUrl, { useNewUrlParser: true });
+mongoose.connect(database.cosmosdb.url, { useNewUrlParser: true });
 
 app.use(express.static('./front-end'));
 app.use(morgan('dev'));
