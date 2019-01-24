@@ -12,14 +12,17 @@ const morgan = require('morgan');
 const bodyParser = require('body-parser');
 const methodOverride = require('method-override'); // esse pacote iremos simular os HTTPs: DELETE & PUT
 
-mongoose.connect('');
+const port = process.env.PORT || 8000;
+const database = require('./config/database');
 
-app.use(express.static(`${__dirname}/public`));
+mongoose.connect(database.local.localUrl, { useNewUrlParser: true });
+
+app.use(express.static('./front-end'));
 app.use(morgan('dev'));
 app.use(bodyParser.urlencoded({ extended: 'true' }));
 app.use(bodyParser.json());
 app.use(bodyParser.json({ type: 'application/vnd.api+json' }));
-app.use(methodOverride());
+app.use(methodOverride('X-HTTP-Method-Override'));
 
-app.listen(8000);
-console.log('Aplicação executando na porta 8000');
+app.listen(port);
+console.log('Aplicação executando na porta ', port);

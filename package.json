@@ -2,9 +2,9 @@
   "name": "demo-explorando-ti-webinar",
   "version": "1.0.0",
   "description": "Aplicação TODO List em MEAN para realização da demo.",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "start": "nodemon",
+    "dev": "nodemon",
     "lint": "eslint --ext .js,.html -f ./node_modules/eslint-friendly-formatter . --fix",
     "prepush": "npm run lint"
   },
