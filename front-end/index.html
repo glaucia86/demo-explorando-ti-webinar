@@ -25,11 +25,11 @@
   <div class="container">
 
     <div class="jumbotron">
-      <h1 class="text-center"><span class="glyphicon glyphicon-thumbs-up" aria-hidden="true"></span> Aplicação
-        Todo-List - Explorando T.I</h1>
-      <h2 class="text-center">Glaucia Lemos - Software Developer</h2>
-      <h3 class="text-center">Microsoft MVP Developer Technologies</h3>
-      <h4 class="text-center">Rio de Janeiro, Brasil - 2019</h4>
+      <h2 class="text-center"><span class="glyphicon glyphicon-thumbs-up" aria-hidden="true"></span> Aplicação
+        Todo-List - Explorando T.I</h2>
+      <h3 class="text-center">Glaucia Lemos - Software Developer</h3>
+      <h4 class="text-center">Microsoft MVP Developer Technologies</h4>
+      <h5 class="text-center">Rio de Janeiro, Brasil - 2019</h5>
       <hr class="m-y-md">
       <p>Não deixe de acompanhar mais Tutoriais como esse!</p>
       <p class="lead">
@@ -41,9 +41,9 @@
     <h1 class="text-center">Lista de Tarefas <span class="label label-info">{{ todos.length }}</span></h1>
 
     <div id="todo-list" class="row">
-      <div class="col-sm-4 col-sm-offset-4">
+      <div class="col-sm-5 col-sm-offset-5">
         <div class="checkbox" ng-repeat="todo in todos">
-          <label>
+          <label class="text-xs-center">
             <input type="checkbox" ng-click="deleteTodo(todo._id)"> {{ todo.texto }}
           </label>
         </div>
