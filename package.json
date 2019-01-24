@@ -5,8 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "nodemon",
-    "lint": "eslint --ext .js,.html -f ./node_modules/eslint-friendly-formatter . --fix",
-    "prepush": "npm run lint"
+    "lint": "eslint --ext .js,.html -f ./node_modules/eslint-friendly-formatter . --fix"
   },
   "repository": {
     "type": "git",

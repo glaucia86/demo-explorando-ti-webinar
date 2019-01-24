@@ -6,14 +6,16 @@
 
 Repositório responsável pela demo apresentada durante o webinar no canal do Explorando T.I realizado no dia 24/01/2019 - **[VÍDEO AQUI](https://www.youtube.com/watch?v=GminGcR4rOU)**
 
-A demo consiste no desenvolvimento de uma aplicação MEAN com integração com os serviços do Microsoft Azure.
+A demo consiste no desenvolvimento de uma aplicação MEAN (TODO-LIST) com integração com os serviços do Microsoft Azure & CosmosDb.
 
 ## Recursos Utilizados no Desenvolvimento da Aplicação: :rocket:
 
 * VS Code - **[DOWNLOAD AQUI](https://code.visualstudio.com/)**
 * Node.js - **[DOWNLOAD AQUI](https://nodejs.org/en/)**
-* MongoDb Community Server - **[DOWNLOAD AQUI](https://www.mongodb.com/download-center/community)**
-* MongoDb Compass GUI - **[DOWNLOAD AQUI](https://www.mongodb.com/download-center/compass)**
+* MongoDb Community Server - **[DOWNLOAD AQUI]**(https://www.mongodb.com/download-center/community)**
+* MongoDb Compass GUI - **[DOWNLOAD AQUI]
+(https://www.mongodb.com/download-center/compass)**
+* AngularJs - **[DOWNLOAD AQUI](https://angularjs.org/)**
 * Azure App Services - **[Cadastro no site Azure](https://azure.microsoft.com/pt-br/)**
 
 ## Executando a Aplicação Localmente:
