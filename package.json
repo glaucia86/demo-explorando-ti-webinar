@@ -1,0 +1,48 @@
+{
+  "name": "demo-explorando-ti-webinar",
+  "version": "1.0.0",
+  "description": "Aplicação TODO List em MEAN para realização da demo.",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon",
+    "lint": "eslint --ext .js,.html -f ./node_modules/eslint-friendly-formatter . --fix",
+    "prepush": "npm run lint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/glaucia86/demo-explorando-ti-webinar.git"
+  },
+  "keywords": [
+    "nodejs",
+    "javascript",
+    "mongoose",
+    "mongodb",
+    "azure",
+    "azure-services-app",
+    "cosmodb",
+    "angular",
+    "express"
+  ],
+  "author": "Glaucia Lemos",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/glaucia86/demo-explorando-ti-webinar/issues"
+  },
+  "homepage": "https://github.com/glaucia86/demo-explorando-ti-webinar#readme",
+  "devDependencies": {
+    "eslint": "^5.12.1",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.15.0",
+    "husky": "^1.3.1",
+    "nodemon": "^1.18.9"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "eslint-friendly-formatter": "^4.0.1",
+    "eslint-plugin-html": "^5.0.0",
+    "express": "^4.16.4",
+    "method-override": "^3.0.0",
+    "mongoose": "^5.4.6",
+    "morgan": "^1.9.1"
+  }
+}
