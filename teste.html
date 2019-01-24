@@ -1,9 +1,10 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="pt-br" ng-app="todoList">
+
 <head>
-  <!-- META -->
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Optimize mobile viewport -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
   <title>Todo List - Explorando T.I</title>
 
@@ -13,17 +14,15 @@
   <link rel="stylesheet" href="./css/style.css">
 
   <!-- Bloco de scripts -->
-  <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.min.js"></script>
+  <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.7.6/angular.min.js"></script>
 
   <script src="js/controllers/main.js"></script>
   <script src="js/services/todos.js"></script>
   <script src="js/core.js"></script>
-
 </head>
 
 <body ng-controller="mainController">
   <div class="container">
-
     <div class="jumbotron">
       <h1 class="text-center"><span class="glyphicon glyphicon-thumbs-up" aria-hidden="true"></span> Aplicação
         Todo-List - Explorando T.I</h1>
@@ -37,36 +36,15 @@
       </p>
     </div>
 
-    <!-- INÍCIO DO CONTADOR DE 'TODOS' -->
-    <h1 class="text-center">Lista de Tarefas <span class="label label-info">{{ todos.length }}</span></h1>
-
-    <div id="todo-list" class="row">
-      <div class="col-sm-4 col-sm-offset-4">
-        <div class="checkbox" ng-repeat="todo in todos">
-          <label>
-            <input type="checkbox" ng-click="deleteTodo(todo._id)"> {{ todo.texto }}
-          </label>
-        </div>
-        <p class="text-center" ng-show="loading">
-          <span class="fa fa-spinner fa-spin fa-3x"></span>
-        </p>
-      </div>
-    </div>
-    <div id="todo-form" class="row">
-      <div class="col-sm-8 col-sm-offset-2 text-center">
-        <form>
-          <div class="form-group">
-            <input type="text" class="form-control input-lg text-center" placeholder="O que você vai fazer hoje?"
-              ng-model="formData.text">
-          </div>
-          <button type="submit" class="btn btn-success btn-lg" ng-click="createTodo()">Adicionar</button>
-        </form>
-      </div>
-    </div>
-    <div class="text-center text-muted">
+    <!-- Início do contador de 'Todos' -->
+    <h3 class="text-center">Lista de Tarefas <span class="label label-info">{{ todos.length }}</span></h3>
+  </div>
+  <div>
+    <hr />
+    <footer>
       <p class="text-center">Desenvolvido com muito <span class="glyphicon glyphicon-heart" aria-hidden="true"></span>
         Rio de Janeiro<a href="http://www.code4coders.wordpress.com"> - 2019</a></p>
-    </div>
+    </footer>
   </div>
 </body>
 
