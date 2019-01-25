@@ -22,9 +22,8 @@ A demo consiste no desenvolvimento de uma aplicação MEAN (TODO-LIST) com integ
 
 * VS Code - **[DOWNLOAD AQUI](https://code.visualstudio.com/)**
 * Node.js - **[DOWNLOAD AQUI](https://nodejs.org/en/)**
-* MongoDb Community Server - **[DOWNLOAD AQUI]**(https://www.mongodb.com/download-center/community)**
-* MongoDb Compass GUI - **[DOWNLOAD AQUI]
-(https://www.mongodb.com/download-center/compass)**
+* MongoDb Community Server - **[DOWNLOAD AQUI](https://www.mongodb.com/download-center/community)**
+* MongoDb Compass GUI - **[DOWNLOAD AQUI](https://www.mongodb.com/download-center/compass)**
 * AngularJs - **[DOWNLOAD AQUI](https://angularjs.org/)**
 * Azure App Services - **[Cadastro no site Azure](https://azure.microsoft.com/pt-br/)**
 

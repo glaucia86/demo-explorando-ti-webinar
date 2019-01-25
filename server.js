@@ -13,7 +13,7 @@ const bodyParser = require('body-parser');
 const methodOverride = require('method-override'); // esse pacote iremos simular os HTTPs: DELETE & PUT
 
 const port = process.env.PORT || 8000;
-const database = require('./config/database');
+const database = require('./config/databaseCosmosDb');
 
 mongoose.connect(database.cosmosdb.url, { useNewUrlParser: true });
 
