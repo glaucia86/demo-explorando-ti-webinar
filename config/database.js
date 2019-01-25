@@ -12,7 +12,9 @@ module.exports = {
     localUrl: 'mongodb://localhost/explorandoti',
   },
 
-  /* cosmosdb: o ideal é criar um arquivo separado que contenha essa connectionString
+  /* cosmosdb: (o ideal é criar um outro arquivo para colocar as connectionstring e colocar
+    no .gitignore para que não que não fique exposto a sua key da connection string)
+    Ex.: https://docs.microsoft.com/pt-br/azure/cosmos-db/mongodb-migrate
   {
     name: 'node-todo-explorando-ti',
     url: '<incluir-a-connection-string-cosmosdb>',
