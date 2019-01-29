@@ -39,7 +39,14 @@ A demo consiste no desenvolvimento de uma aplicação MEAN (TODO-LIST) com integ
 > npm run dev
 ```
 
-## Demo da Aplicação:
+Depois bastam abrir o browser em: **localhost:8000**
+
+## Como faço para realizar o deploy da aplicação MEAN/Node.js para Azure integrado com CosmosDb?!
+
+Há inúmeros passos a serem seguidos para realizar o deploy da aplicação para a plataforma Azure com integração com o CosmosDb. Com isso, criei um arquivo explicando passo-a-passo como realizar.
+Caso queiram aprender, bastam acessar o arquivo **[DEPLOY-APP-AZURE-COSMOSDB.md](DEPLOY-APP-AZURE-COSMOSDB.md)**
+
+## Demo da Aplicação (Online):
 
 Caso desejam visualizar a demo em produção, com a integração com Azure & CosmosDb, bastam acessar o link **[AQUI](https://mean-todo-list-explorandoti.azurewebsites.net/)**.
 
