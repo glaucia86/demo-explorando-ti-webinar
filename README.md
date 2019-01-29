@@ -53,6 +53,6 @@ Caso desejam visualizar a demo em produção, com a integração com Azure & Cos
 
 ## Dúvidas?! :triangular_flag_on_post:
 
-Se tiverem alguma dúvida referente ao código feito ou para configurar o ambiente bastam criar uma [ISSUE](https://github.com/glaucia86/demo-explorando-ti-webinar/issues) no GitHub que estarei respondendo a vocês!! :heart: :heart: :heart: :blush:
+Se tiverem alguma dúvida referente ao código feito ou para configurar o ambiente bastam criar uma **[ISSUE](https://github.com/glaucia86/demo-explorando-ti-webinar/issues)** no GitHub que estarei respondendo a vocês!! :heart: :heart: :heart: :blush:
 
 **documentação em desenvolvimento**
