@@ -20,12 +20,12 @@ A demo consiste no desenvolvimento de uma aplicação MEAN (TODO-LIST) com integ
 
 ## Recursos Utilizados no Desenvolvimento da Aplicação: :rocket:
 
-* VS Code - **[DOWNLOAD AQUI](https://code.visualstudio.com/)**
+* VS Code - **[DOWNLOAD AQUI](https://code.visualstudio.com/?WT.mc_id=javascript-0000-gllemos)**
 * Node.js - **[DOWNLOAD AQUI](https://nodejs.org/en/)**
 * MongoDb Community Server - **[DOWNLOAD AQUI](https://www.mongodb.com/download-center/community)**
 * MongoDb Compass GUI - **[DOWNLOAD AQUI](https://www.mongodb.com/download-center/compass)**
 * AngularJs - **[DOWNLOAD AQUI](https://angularjs.org/)**
-* Azure App Services - **[Cadastro no site Azure](https://azure.microsoft.com/pt-br/)**
+* Azure App Services - **[Cadastro no site Azure](https://azure.microsoft.com/?WT.mc_id=javascript-0000-gllemos)**
 
 ## Executando a Aplicação Localmente:
 
